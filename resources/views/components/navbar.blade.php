@@ -28,10 +28,66 @@
                     Home
                 </a>
 
-                <a href="{{ route('about') }}"
-                   class="text-sm font-medium text-gray-700 hover:text-bgf-green">
-                    About Us
-                </a>
+                <div class="relative group">
+
+    <a href="{{ route('about') }}"
+       class="inline-flex items-center gap-1 text-sm font-medium text-gray-700 hover:text-bgf-green">
+
+        About Us
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+             fill="none"
+             viewBox="0 0 24 24"
+             stroke-width="1.8"
+             stroke="currentColor"
+             class="w-4 h-4">
+
+            <path stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+
+        </svg>
+
+    </a>
+
+    <div class="absolute left-0 top-full hidden w-64 pt-3 group-hover:block">
+
+        <div class="rounded-2xl bg-white p-2 shadow-xl border border-gray-100">
+
+            <a href="{{ route('about') }}#what-we-do"
+               class="block rounded-xl px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-bgf-green">
+                What We Do
+            </a>
+
+            <a href="{{ route('about') }}#who-we-work-with"
+               class="block rounded-xl px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-bgf-green">
+                Who We Work With
+            </a>
+
+            <a href="{{ route('about') }}#our-experience"
+               class="block rounded-xl px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-bgf-green">
+                Our Experience
+            </a>
+
+            <a href="{{ route('about') }}#relationship-with-bgf"
+               class="block rounded-xl px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-bgf-green">
+                Relationship with BGF
+            </a>
+
+            <a href="{{ route('about') }}#commitment"
+               class="block rounded-xl px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-bgf-green">
+                Commitment
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
 
                 <a href="#projects"
                    class="text-sm font-medium text-gray-700 hover:text-bgf-green">

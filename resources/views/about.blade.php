@@ -30,7 +30,7 @@
 
 
 {{-- WHAT WE DO --}}
-<section class="about-section about-section--light">
+<section id="what-we-do" class="about-section about-section--light">
 
     <div class="bgf-container">
 
@@ -90,7 +90,7 @@
 
 
 {{-- WHO WE WORK WITH --}}
-<section class="about-section">
+<section id="who-we-work-with" class="about-section">
 
     <div class="bgf-container">
 
@@ -140,8 +140,7 @@
 
 
 {{-- OUR EXPERIENCE --}}
-<section class="about-section about-section--light">
-
+<section id="our-experience" class="about-section about-section--light">
     <div class="bgf-container">
 
         <div class="about-section__grid">
@@ -189,7 +188,7 @@
 
 
 {{-- RELATIONSHIP WITH BGF --}}
-<section class="about-section">
+<section id="relationship-with-bgf" class="about-section">
 
     <div class="bgf-container">
 
@@ -240,7 +239,7 @@
 
 
 {{-- COMMITMENT --}}
-<section class="about-section about-section--light">
+<section id="commitment" class="about-section about-section--light">
 
     <div class="bgf-container">
 
